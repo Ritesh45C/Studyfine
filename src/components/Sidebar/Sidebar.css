@@ -1,0 +1,30 @@
+.profile-img{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+.profile-text{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    padding: 10px 26px;
+}
+.btn-active{
+    background-color: #26C6DA;
+
+    border-radius: 6px;
+}
+.btn-active a p{
+    color:#ffffff;
+    font-weight: 800;
+}
+.btn-active a i{
+    color: #ffffff !important;
+}
+.sidebar-wrapper ul{
+    /* background-color: #ffffff; */
+    padding: 0px 15px;
+}

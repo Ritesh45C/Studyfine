@@ -1,0 +1,60 @@
+.log-out-hover:hover{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.dropdown-menu-right .logout-wrapper:hover .log-out-hover{
+    color: #ffffff !important;
+}
+.dropdown-menu-right .logout-wrapper:hover{
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0px !important;
+}
+.dropdown-menu-right .profile-wrapper:hover{
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.rank-btn.btn.btn-secondary{
+    text-transform:capitalize;
+    padding: 0px 15px !important;
+    font-size: 13px;
+    margin-right: 30px !important;
+    background-color: #26C6DA;
+    font-weight: 800;
+}
+
+.rank-btn.btn.btn-secondary{
+    padding: 0;
+    margin: 0;
+}
+.rank-btn.btn.btn-secondary:hover{
+    background-color: #26C6DA ;
+    color: #ffffff;
+}
+/* Bar Chart */
+.BarChart-wrapper .apexcharts-menu-icon{
+    display: none;
+}
+
+/* Navbar Calender */
+.date-picker-wrapper-nav .react-datetime-picker__wrapper{
+background-color: #fff;
+border: none;
+padding: 10px;
+border-radius: 5px;
+margin-right: 20px;
+
+}
+.date-picker-wrapper-nav .react-datetime-picker__calendar .react-calendar {
+    border: none;
+    box-shadow: 0px 0px 7px #1E88E5;
+    margin-top: 13px;
+    border-radius: 9px !important;
+}
+.date-picker-wrapper-nav .react-datetime-picker__clock {
+    border: none;
+    box-shadow: 0px 0px 7px #1E88E5;
+    margin-top: 13px;
+    border-radius: 9px !important;
+}

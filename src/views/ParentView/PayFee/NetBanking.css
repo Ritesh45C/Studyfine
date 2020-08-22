@@ -1,0 +1,78 @@
+.paymentWrap {
+  padding: 50px;
+}
+
+.paymentWrap .paymentBtnGroup {
+  max-width: 800px;
+  margin: auto;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod {
+  padding: 40px;
+  box-shadow: none;
+  background-color: white;
+  position: relative;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active {
+  outline: none !important;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active .method {
+  border-color: #686868;
+  outline: none !important;
+  box-shadow: 0px 3px 22px 0px #7b7b7b;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid transparent;
+  transition: all 0.5s;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.visa {
+  background-image: url("https://i.pinimg.com/originals/19/2c/e4/192ce4089dc3ca3ba7a007fd2971447b.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.master-card {
+  background-image: url("https://seekvectorlogo.net/wp-content/uploads/2018/12/hdfc-bank-vector-logo.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.amex {
+  background-image: url("https://www.wordzz.com/wp-content/uploads/2016/10/sbi.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.vishwa {
+  background-image: url("data:image/png;base64,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");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.ez-cash {
+  background-image: url("https://www.companieshistory.com/wp-content/uploads/2013/07/Punjab-National-Bank.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
+  border-color: #838383;
+  outline: none !important;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.gpay {
+  background-image: url("https://lh3.googleusercontent.com/AeMKuV3iGZsHPeSU_g13oYW0msutmjt3QiEbJvTiMh6dqFvyeTS-LHVs4Sa0d9q7RElI");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.paytm {
+  background-image: url("https://pbs.twimg.com/profile_images/1242803598083395585/4cWZptzw_400x400.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.ppay {
+  background-image: url("https://cdn.siasat.com/wp-content/uploads/2020/03/Phone-PE.jpg");
+}
+.paymentMethod {
+  /* margin-right: 26px; */
+}

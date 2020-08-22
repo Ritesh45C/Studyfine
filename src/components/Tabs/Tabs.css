@@ -1,0 +1,115 @@
+.custom-tab .MuiTabs-flexContainer{
+    background-color: #ffffff;
+    color: #000;
+    
+}
+.custom-tab .MuiTabs-indicator {
+    background-color: #1E88E5 !important;
+}
+.modal-video-btn-outer{
+    justify-content: left !important;
+}
+.modal-video-btn-outer .MuiButton-label{
+    font-size: 18px;
+    color: #757575;
+    text-transform: lowercase;
+}
+.video-modal-wrapper body{
+    background-color: #ffffff !important;
+    margin: 20px 20px !important;
+} 
+.myClassname{
+    padding: 20px 10px;
+}
+
+
+/* Videos */
+.video-modal-wrapper{
+    /* position: relative; */
+    height: 200px !important;
+    width: 200px !important;
+  }
+  .video-slider .sc-bxivhb{
+    width: 200px;
+  }
+  .layer{
+    background-color: rgb(255, 255, 255, .0)!important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 200px;
+      width: 200px;
+  }
+  .layer-pdf{
+    background-color: rgb(255, 255, 255, .0)!important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 150px;
+      width: 150px;
+  }
+  
+  /* modal drag */
+  .close-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 27px;
+    padding: 4px 6px;
+    font-size: 17px;
+    text-shadow: #757575;
+    cursor: pointer;
+  }
+  .close-btn-pdf {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 27px;
+    margin-top: 20px;
+    padding: 4px 6px;
+    font-size: 17px;
+    text-shadow: #757575;
+    cursor: pointer;
+  }
+  .react-draggable.react-draggable-dragged{
+    z-index: 999 !important;
+  }
+  .react-draggable{
+    z-index: 999 !important;
+  }
+
+/* Pdf Modal */
+.pdf-slider .sc-bxivhb{
+  width: 200px;
+}
+.pdf-wrapper .container.text-center{
+  height: 100px;
+
+}
+.close-btn-pdf{
+position: absolute;
+    bottom: 0;
+    right:0;
+    font-size: 32px;
+    text-shadow: #757575;
+    cursor: pointer;
+    background-color: #fff !important;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 4px 15px;
+}
+.pdf-wrapper-modal .container{
+  height: 400px;
+}
+.pdf-wrapper-modal canvas{
+  /* height: 500px !important; */
+  overflow-y: hidden;
+}
+.close-btn-pdf-wrapper{
+  position: fixed;
+    /* bottom: 0 !important; */
+    right: 0;
+    top: 58px;
+}

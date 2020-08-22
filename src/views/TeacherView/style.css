@@ -1,0 +1,104 @@
+/* Teacher Dashboard */
+.card-teacher-wrapper .card-teacher-footer {
+  text-align: right;
+}
+.progress-bar-wrapper {
+  padding-top: 40px;
+}
+.progress-bar-wrapper li {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.progress-bar-wrapper li > div {
+  width: 80%;
+  text-align: right;
+  /* margin-left: 50px; */
+  margin-top: 14px;
+}
+.progress-bar-wrapper li h3 {
+  margin-right: 20px;
+  font-size: 25px;
+}
+.progress-bar-wrapper li span {
+  margin-left: 20px;
+}
+.syllabus-dropdown {
+  margin-top: 10px;
+}
+.syllabus-dropdown .MuiFormControl-root {
+  width: 100%;
+}
+.teacher-dashboard-tbl-wrapper .dataTables_length.bs-select {
+  display: none;
+}
+.teacher-dashboard-tbl-wrapper .dataTables_filter {
+  display: none;
+}
+
+.teacher-dashboard-tbl-wrapper [data-test="table-foot"] {
+  display: none;
+}
+.date-picker-wrapper-teacher .react-datetime-picker__wrapper {
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 7px 10px !important;
+  text-align: left;
+}
+.date-picker-wrapper-teacher .react-calendar {
+  border: none;
+  box-shadow: 0px 0px 7px #1e88e5;
+  margin-top: 13px;
+  border-radius: 9px !important;
+}
+.date-picker-wrapper-teacher .react-datetime-picker__clock {
+  border: none;
+  box-shadow: 0px 0px 7px #1e88e5;
+  margin-top: 13px;
+  border-radius: 9px !important;
+}
+.date-picker-wrapper-teacher
+  .react-datetime-picker.react-datetime-picker--closed.react-datetime-picker--enabled.dd {
+  padding-top: 12px;
+  padding-bottom: 18px;
+  margin-right: 10px;
+}
+
+.score-btn-right {
+  text-align: right;
+}
+.calender-show-teacher {
+  margin-left: 43px;
+}
+/* Live Test */
+.right {
+  text-align: right;
+}
+
+/* Create Paper Form */
+.form-top-space {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.create-paper-form {
+  box-shadow: 0px 0px 5px #757575;
+  padding: 58px 48px;
+}
+.file-btn-css {
+  padding: 7px;
+  border: 1px solid #757575;
+  border-radius: 5px;
+  text-align: center;
+}
+.multistep-outer ol.progtrckr {
+  display: none !important;
+}
+/* Google Map */
+.google-map-space-top {
+  margin-top: 50px;
+}

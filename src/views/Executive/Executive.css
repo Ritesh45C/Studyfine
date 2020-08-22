@@ -1,0 +1,175 @@
+.registerHeading {
+  padding: 8px;
+  margin: 40px 0;
+  border-radius: 17px;
+  color: white;
+  width: 64%;
+  background: linear-gradient(to right, #a0dfe6, #e9e4f0);
+}
+.card-school {
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    #000046,
+    #1cb5e0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card-admin-paper {
+  padding: 15px;
+  max-width: 552px;
+}
+.card-admin {
+  min-width: 375px;
+  cursor: pointer;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card-prinicpal {
+  cursor: pointer;
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+}
+.card-parent {
+  cursor: pointer;
+  background: linear-gradient(to right, #e52d27, #b31217);
+}
+.btn-dark-moon {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  border: 3px solid #eee;
+}
+.btn-rounded {
+  border-radius: 35px;
+}
+.register-btn {
+  background: linear-gradient(to right, #243b55, #141e30);
+  color: #fff;
+  padding: 6px;
+  width: 149px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 60px;
+  text-align: center;
+}
+.row-upload {
+  margin-left: 24px;
+}
+.register-btn:hover {
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+.row-register {
+  justify-content: flex-end;
+  margin-right: 16px;
+}
+.row-register-form {
+  justify-content: center;
+  cursor: pointer;
+}
+input::-webkit-file-upload-button {
+  visibility: hidden;
+  display: none;
+}
+
+.uploadfile::before {
+  content: "Upload CSV/XLSX";
+  display: inline-block;
+  background: linear-gradient(to right, #243b55, #141e30);
+  /* border: 1px solid #999; */
+  border-radius: 3px;
+  padding: 5px 8px;
+  color: white;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  /* text-shadow: 1px 1px #fff; */
+  font-weight: 700;
+  font-size: 10pt;
+}
+.uploadfile:hover::before {
+  border-color: black;
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+.uploadfile:active::before {
+  /* background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); */
+}
+
+.dataButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  padding-top: 46px;
+  padding-bottom: 15px;
+}
+.search_data {
+  padding: 13px;
+  margin-right: 20px;
+  width: 250px;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #myGrid,
+  #myGrid * {
+    visibility: visible;
+  }
+  #myGrid {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

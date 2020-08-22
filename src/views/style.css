@@ -1,0 +1,680 @@
+/* Login Form Code */
+.ps {
+  overflow: initial !important;
+}
+.rank-btn {
+  margin-right: 172px;
+}
+.dialogBox {
+  padding: 20px;
+}
+.syllabus-dropdown {
+  margin-top: 23px;
+}
+.takeTest {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: flex-end;
+}
+.card-cab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  top: 37%;
+}
+.ag-theme-material .ag-header {
+  background-color: #e7e7e7 !important;
+}
+
+.react-draggable.react-draggable-dragged {
+  z-index: 99999 !important;
+}
+.react-draggable {
+  min-width: 491px !important;
+  min-height: 450px !important;
+}
+.timercard {
+  min-width: 250px;
+}
+.cancel {
+  cursor: default;
+  border: 1px solid #4e4e4e36;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.tutor-pdf {
+  background-color: rgb(255, 255, 255, 0) !important;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  right: 3px;
+  height: 110px;
+  width: 110px;
+}
+
+.shapeactive {
+  background-color: teal;
+
+  color: white;
+}
+
+.toll {
+  width: 150px;
+  position: relative;
+  z-index: 1000000 !important;
+}
+.colorPicker {
+  margin-left: 10px;
+}
+.buttonTools {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: space-between;
+  top: -42px;
+  position: relative;
+}
+.Login-wrapper {
+  box-shadow: 0px 0px 4px #223841;
+  margin: 150px auto;
+  padding: 55px 43px;
+  border-radius: 17px;
+  background-color: #fff;
+}
+.btn-width {
+  width: 100%;
+  border-radius: 7px;
+  margin-top: 20px;
+  padding: 13px;
+}
+.input-box {
+  border: 0 !important;
+  outline: 0 !important;
+  border-bottom: 1px solid #a8a8a8 !important;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 13px;
+}
+.input-red {
+  border-bottom: 1px solid red !important;
+}
+.error-color {
+  color: red;
+}
+
+.Login-wrapper input:focus {
+  border-color: #a8a8a8 !important;
+}
+.Login-wrapper label {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.Login-wrapper h2 {
+  text-align: center;
+}
+.Login-wrapper a {
+  color: #000;
+  text-decoration: none;
+}
+.Login-wrapper a:hover {
+  text-decoration: none;
+}
+.Login-wrapper .login-btn-outer {
+  text-align: center;
+  border: 1px solid #0196ac;
+  padding: 14px 10px;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+.Login-wrapper .login-btn {
+  color: #0196ac;
+}
+.Login-wrapper .login-btn-outer:hover {
+  background-color: #51cbce;
+}
+.Login-wrapper .login-btn-outer:hover .login-btn {
+  color: #fff;
+}
+
+.cb-slideshow li {
+  list-style: none;
+}
+.themeBtn {
+  background: #378511;
+  color: #ffffff !important;
+  box-shadow: 0 10px 25px -2px rgba(22, 114, 45, 0.6);
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  height: 45px;
+  line-height: 0.8;
+  padding: 18px 30px;
+  text-transform: capitalize;
+  border-radius: 1px;
+  letter-spacing: 0.5px;
+  border: 0px !important;
+  cursor: pointer;
+  border-radius: 100px;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* .themeBtn:hover {
+  background: rgb(255, 92, 0);
+  color: #ffffff;
+  box-shadow: 0 10px 25px -2px rgba(255, 92, 0, 0.6);
+} */
+/* Forget Css */
+.forgot-wrapper {
+  box-shadow: 0px 0px 4px #223841;
+  margin: 80px auto;
+  padding: 55px 43px;
+  border-radius: 17px;
+  background-color: #fff;
+}
+
+/* Timer */
+.timer-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 !important;
+}
+/* Payment css  */
+.credit-card-box {
+  padding: 12px;
+}
+.credit-card-box .panel-title {
+  display: inline;
+  font-weight: bold;
+}
+.credit-card-box .form-control.error {
+  border-color: red;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+
+.credit-card-box label {
+  display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+  display: table;
+}
+.credit-card-box .display-tr {
+  display: table-row;
+}
+.credit-card-box .display-td {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+  min-width: 180px;
+}
+/* payment css finish */
+.input-forget {
+  border: 0 !important;
+  outline: 0 !important;
+  border-bottom: 1px solid #a8a8a8 !important;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 13px;
+}
+.forgot-wrapper input:focus {
+  border-color: #a8a8a8 !important;
+}
+.forgot-wrapper label {
+  font-size: 14px;
+}
+.forgot-wrapper h2 {
+  text-align: center;
+  margin: 0;
+}
+.forgot-wrapper p {
+  font-size: 13px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.lbl-outer {
+  margin-top: 10px;
+  display: flex;
+}
+.lbl-outer .form-check-input {
+  margin-left: 10px;
+}
+
+.lbl-outer a {
+  color: #000;
+  text-decoration: none;
+}
+.lbl-outer a:hover {
+  text-decoration: none;
+}
+.lbl-outer .form-check .form-check-label {
+  padding-left: 0;
+}
+.forget-modal .MuiPaper-rounded {
+  padding: 20px !important;
+}
+.forget-modal .cross-icon {
+  width: 20px !important;
+  height: 20px !important;
+  cursor: pointer !important;
+}
+
+/* Table */
+.table .time-heading-css {
+  font-size: 13px;
+  font-weight: 600;
+}
+.tbl-width {
+  width: 470px;
+}
+.th-style {
+  width: 0px;
+  display: none;
+}
+.display-none {
+  display: none;
+}
+.table-tasks .form-check {
+  margin-top: 35px;
+}
+.tbl-full-width {
+  width: 100%;
+}
+.tbl-custom-width {
+  width: 1012px;
+}
+.width-display-none {
+  width: 0px;
+  display: none;
+}
+.lunch-col-bg {
+  background-color: #d3d3d3;
+  font-weight: 800;
+  font-size: 17px;
+  text-align: center;
+}
+/* Card */
+.custom-card-height {
+  min-height: 84px;
+}
+.custom-card-height .custom-card-body {
+  padding: 31px 15px 0px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.teacherTool {
+  display: flex;
+  justify-content: center;
+}
+.custom-card-body ul {
+  padding: 0;
+  margin: 0;
+}
+.custom-card-body ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+
+/* Date Time Picker */
+.date-picker-wrapper {
+  /* text-align: right; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.date-picker-wrapper .react-datetime-picker__wrapper {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  padding: 6px 15px;
+  margin-top: 10px;
+}
+.calender-result-show {
+  margin-left: 20px;
+}
+
+.calender-result-show {
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 18px;
+  font-weight: 500;
+}
+
+.date-picker-wrapper .react-datetime-picker__calendar .react-calendar {
+  border: none;
+  box-shadow: 0px 0px 7px #1e88e5;
+  margin-top: 13px;
+  border-radius: 9px !important;
+}
+.date-picker-wrapper .react-datetime-picker__clock {
+  border: none;
+  box-shadow: 0px 0px 7px #1e88e5;
+  margin-top: 13px;
+  border-radius: 9px !important;
+}
+
+/* Message Send Code */
+.txt-message-outer {
+  position: relative;
+}
+
+.btn-container {
+  z-index: 999;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+.smiley {
+  margin-right: 17px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.hover-effect-img {
+  padding-left: 13px;
+}
+.btn {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+.btn:hover {
+  background-color: #1661f6;
+  color: #ffffff;
+}
+.file-container {
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  cursor: pointer;
+}
+.file-container .dz-preview.dz-image-preview {
+  margin-top: 30px;
+}
+
+.file-container .dz-preview.dz-image-preview .dz-image {
+  display: inline;
+}
+.send-btn {
+  right: 11px !important;
+  top: 8px !important;
+}
+.send-btn .btn {
+  background-color: #26c6da;
+}
+
+.text-input-box {
+  padding: 10px 44px 10px 40px;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-size: 16px;
+  color: #122a4b;
+  border-color: rgba(18, 42, 75, 0.15);
+  resize: none;
+  border-radius: 15px;
+}
+
+.text-input-box::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(18, 42, 75, 0.5);
+  margin-left: 20px;
+  padding-top: 10px;
+}
+/* Diary Page */
+
+.teacher-img-wrapper .img-wrapper img {
+  width: 40px !important;
+  height: 40px !important;
+  overflow: hidden !important;
+  box-shadow: none !important;
+}
+
+.subject-wrapper h3 {
+  font-size: 15px;
+  padding-top: 19px;
+  font-weight: 600;
+}
+.p-tag-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.calender-student-diary {
+  padding: 12px 30px;
+  margin-left: 10px;
+}
+
+.empty-td {
+  width: 5% !important;
+}
+.teacher-img {
+  width: 17% !important;
+}
+.teacher-def {
+  width: 100% !important;
+  text-align: left;
+}
+.teacher-sub {
+  padding-left: 0px !important;
+}
+
+.txtBox-dropdown {
+  position: absolute;
+  right: 0px;
+  top: -59px;
+  margin-right: 77px;
+}
+.txt-message-outer .dropdown-menu.dropdown-menu-right.show {
+  margin-top: 212px;
+}
+.txt-message-outer .txtBox-dropdown.dropdown-toggle.btn.btn-secondary {
+  background-color: #e0e0e0 !important;
+  margin-top: 1px !important;
+  margin-right: 89px !important;
+  color: #757575;
+}
+
+/* Recommendation Page */
+.recomendation-img {
+  min-width: 100px;
+  height: 100px;
+}
+.notebook-wrapper {
+  padding-top: 20px;
+}
+.notebook-wrapper h3 {
+  margin: 0;
+  color: #606266;
+  font-size: 22px;
+}
+
+.notebook-wrapper p {
+  color: #606266;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.price-col {
+  line-height: 100px;
+  font-size: 25px;
+  color: #606266;
+}
+.price-col .euro {
+  font-size: 16px;
+  color: #606266;
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+}
+.shopping-tbl-title h2 {
+  font-size: 25px;
+  color: #757575;
+  margin: 0;
+}
+.card-foot {
+  background-color: #f5f7fa !important;
+}
+.add-sub button.btn.btn-outline-default.btn-round.btn-default.btn-sm.left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.add-sub button.btn.btn-outline-default.btn-round.btn-default.btn-sm.right {
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+.total-result {
+  font-size: 26px;
+  color: #757575;
+  text-align: right;
+}
+.total-result .flex {
+  justify-content: flex-end;
+}
+.disable {
+  pointer-events: none;
+  padding: 20px;
+  /* for "disabled" effect */
+  opacity: 0.5;
+  background: #ccc;
+}
+
+/* Date Time Picker */
+.time-picker-outer .date-picker-wrapper .react-datetime-picker__wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: thin solid gray;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 11px;
+}
+.time-picker-outer .date-picker-wrapper .react-datetime-picker__wrapper {
+  border: none !important;
+  border-radius: 21px !important;
+  padding: 32px 29px !important;
+  margin-top: 10px !important;
+}
+/* Self Analisis Test */
+.space-top {
+  margin-top: 50px;
+}
+.card-bottom-padding {
+  padding-bottom: 220px !important;
+}
+.card-bottom-padding .dropdown-menu.dropdown-menu-right {
+  margin-top: 50px !important;
+}
+
+/* MultiStep Form */
+.step-progress ol.progtrckr {
+  display: none !important;
+}
+.timer-card {
+  min-height: 65px;
+  font-size: 12px;
+}
+.timer-card h3 {
+  margin: 0;
+}
+.full-width {
+  width: 100%;
+}
+.tool {
+  /* position: absolute; */
+  top: -41px;
+}
+/* Dummy */
+.my-modal-custom-class {
+  margin-top: 50px;
+}
+/* Notpad Css */
+.notpad-btn {
+  background-color: #26c6da;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 5px 15px;
+}
+.notpad-modal-wrapper {
+  margin: 50px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+.notpad-border {
+  border: 1px solid #000000;
+}
+.pdfwrapper {
+  padding: 34px;
+}
+.chart {
+  min-height: 400px;
+}
+/* .card-user {
+  min-width: 366px;
+} */
+.cabHeading {
+  display: flex;
+  width: 151px;
+  justify-content: space-evenly;
+}
+.close-pdf {
+  position: absolute;
+  cursor: pointer;
+  top: 7px;
+  z-index: 10000 !important;
+  right: -0;
+  background-color: #26c6da;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 5px 15px;
+}
+.close-button {
+  position: fixed;
+}
+.teacher-calender-result {
+  text-align: left;
+}
+.teacher-calender-result .calender-student-diary {
+  padding: 10px 16px;
+  margin-left: 34px;
+}

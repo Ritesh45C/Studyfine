@@ -1,0 +1,78 @@
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #f0f8ff;
+  margin: auto;
+}
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 600;
+
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-0pky {
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* answer */
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-kj2m {
+  background-color: #c4c4ca;
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+.tg .tg-4t0x {
+  background-color: #67fd9a;
+  border-color: #009901;
+  text-align: center;
+  vertical-align: top;
+}
+.tg .tg-p2i2 {
+  background-color: #fe996b;
+  border-color: #fd6864;
+  text-align: center;
+  vertical-align: top;
+}

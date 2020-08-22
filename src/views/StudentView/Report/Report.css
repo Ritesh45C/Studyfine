@@ -1,0 +1,113 @@
+.reportCard {
+  max-width: 850px;
+  background: white;
+  margin: auto;
+}
+.reportHeader {
+  background-color: #293e51;
+  padding: 15px;
+}
+.ReportHeading {
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-weight: 700;
+  /* color: #293e51; */
+}
+.schoolName {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 19px;
+}
+.subjectName {
+  display: grid;
+  grid-template-columns: 230px 230px 230px;
+  justify-content: center;
+  color: white;
+  grid-column-gap: 20px;
+  grid-row-gap: 25px;
+  margin: 25px 0;
+}
+.subjectName > div {
+  background-color: #293e51;
+  font-weight: 700;
+  padding: 6px 0;
+}
+.studentGrades {
+  display: grid;
+  grid-template-columns: 230px 230px 230px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  justify-content: center;
+}
+.studentGrades > div {
+  background-color: #e3e3e3d1;
+  text-align: center;
+  padding: 4px 0;
+  font-size: 18px;
+  color: #293e51;
+  font-weight: 600;
+}
+
+.gradeBelow {
+  max-width: 650px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 29px;
+}
+.gradeScale {
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+.reportFooter {
+  margin-top: 25px;
+  background-color: #293e51;
+  padding: 15px;
+}
+.main-panel {
+  height: auto !important;
+  max-height: initial !important;
+}
+.centerreport {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.studentInfo {
+  display: grid;
+  grid-template-columns: 220px 221px;
+  justify-content: space-evenly;
+  padding: 35px;
+}
+@media screen and (max-width: 900px) {
+  .studentGrades {
+    grid-template-columns: 125px 125px 125px;
+  }
+  .studentGrades > div {
+    font-size: 12px;
+  }
+  .ReportHeading {
+    font-size: 40px;
+  }
+  .subjectName {
+    grid-template-columns: 125px 125px 125px;
+  }
+  .subjectName > div {
+    font-size: 12px;
+  }
+  .schoolName {
+    font-size: 15px;
+  }
+  .gradeBelow {
+    font-size: 11px;
+  }
+  .studentInfo {
+    grid-template-columns: 150px 150px;
+  }
+}
+.gradeHeading {
+  text-align: left;
+  margin-left: 28px;
+  padding-bottom: 18px;
+}
